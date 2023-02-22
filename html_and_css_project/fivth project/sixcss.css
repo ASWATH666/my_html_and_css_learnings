@@ -1,0 +1,63 @@
+.header{
+    font-size: 20px;
+    color: ivory;
+    padding:20px;
+    width:860px;
+    display:inline-block;
+    background-color:#0072bb;
+    border-radius: 15px 0px 0px 0px;
+}
+body{
+    background-color:#bfdbec;
+}
+.msform{
+    background-color: white;
+}
+
+.content{
+     margin-top:65px;
+     margin-left:55px;
+     font-family:sans-serif;
+     background-color: white;
+     font-weight:700px;
+     font-size:2opx;
+     letter-spacing: 1px;
+   
+}
+#residence{
+    width:200px;
+    border-radius:15px 15px;
+    border:2px solid blue;
+    padding:11px;
+    text-align: center;
+}
+#residence:hover{
+    border:2px solid rgb(11, 233, 48);
+    transition: 1s;
+}
+.box{
+    border-radius: 15px 15px;
+    border:2px solid blue;
+    margin-top:5px;
+    margin-bottom:20px;
+    padding:11px;
+    width:350px;
+}
+.box:hover{
+    border:2px solid rgb(11, 233, 48);
+    transition: 1s;
+}
+.sub{
+    padding:9px;
+    border-radius:15px 15px;
+    width:150px;
+    margin-left:375px;
+    border:2px solid blue;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color:blue
+}
+.sub:hover{
+    border:2px solid rgb(11, 233, 48);
+    transition: 1s;
+}

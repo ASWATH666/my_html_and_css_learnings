@@ -1,0 +1,78 @@
+
+body{
+    background-color: rgb(10, 10, 10);
+}
+#button_collection{
+    background-color: rgb(171, 207, 171);
+    text-align: center;
+    border-width:thin thin 10px thin ;
+    border-style: solid;
+    color: rgba(94, 3, 59, 0.658);
+}
+.btn{
+    margin-top:50px;
+    padding: 20px;
+    border-radius: 15px 15px;
+    border: 2px 2px ;
+    font-size:2em;
+    font-style: italic;
+    background-color: blueviolet;
+    box-shadow: 20px 15px  orange;
+    text-shadow: 5px orange;
+    color:lightpink;
+}
+.btn:hover{
+    color:orange;
+    background-color: green;
+    transition:1s;
+}
+.btn1{
+    margin-left:75px;
+    margin-top:50px;
+    padding: 20px;
+    border-radius: 15px 15px;
+    border:rgb(250, 77, 8);
+    font-size:2em;
+    font-style: italic;
+    background-color: blueviolet;
+    box-shadow:10px 0px 0 0 orange;
+    color: lightpink;
+}
+.btn1:hover{
+    color:orange;
+    transition:1s;
+}
+.btn2{
+    margin-left:90px;
+    margin-top:50px;
+    padding: 20px;
+    border-radius: 15px 15px;
+    border:black;
+    font-size:2em;
+    font-style: italic;
+    background-color:black;
+    box-shadow:20px 15px greenyellow ;
+    color:greenyellow;
+}
+.btn3{
+    margin-top:-70px;
+    margin-left:950px;
+    padding:20px;
+    font-style: italic;
+    font-size: 2em;
+    letter-spacing:2px;
+    display:flex;
+    background-color:black;
+    border-radius: 15px 15px;
+    border:3px greenyellow;
+    box-shadow:1px 1px 1px 1px greenyellow,inset 1px 1px 1px 1px greenyellow ; 
+    color: greenyellow;
+    transition:1s;
+}
+.btn3:hover{
+    text-shadow: 1px 1px 2px greenyellow, -1px -1px 2px greenyellow;
+    box-shadow:0px 5px 50px 0px greenyellow inset, 0px 5px 50px 0px greenyellow,
+    0px 5px 50px 0px greenyellow inset, 0px 5px 50px 0px greenyellow; 
+    border:5px greenyellow;
+    transition: 2s;
+}
